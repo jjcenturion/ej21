@@ -1,7 +1,9 @@
 cont_letra = 0
 cont_palabra = 0
 cont_palabras_p = 0
+cont_ta = 0
 cadena = None
+primer_caracter = False
 
 while cadena !='.':
 	cadena = input('Ingresar letra, termina con"."')
@@ -20,5 +22,15 @@ while cadena !='.':
 		if cont_letra == 1 and cadena == 'p':
 			cont_palabras_p +=1
 
+
+		if cadena == 't' and primer_caracter == False
+			primer_caracter = True
+		if cadena == 'a' and primer_caracter == True
+			cont_ta +=1	
+			primer_caracter = False
+
+
 print('Cantidad de palabras:', cont_palabra )		
 print('Cantidad de palabras que inician con p:', cont_palabras_p )	 
+
+c. Determinar cuántas palabras contuvieron una o más veces la expresión "ta".
